@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Z-Layout</title>
+    <title>F-Layout</title>
     <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
 
     <style>
@@ -60,15 +60,20 @@
             margin: auto;
         }
         .Info{
-            width: 950px;
+            width: 900px;
             height: 600px;
+            display: inline-block;
             border: 10px solid white;
-            float: inline;
             background-color: aquamarine;
         }
         .informations{
-            margin-top: 10px;
             margin-left: 10px;
+            width:75%;
+            float:left;
+        }
+
+        .article_image{
+            float:right;
         }
     </style>
 
@@ -82,28 +87,29 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="f_layout.html">F_Layout</a></li>
     </menu>
-    <div class = "Main_picture">
-    <div class = "Main_picture">
-        <img src = "internet.jpg" alt = "Internet" class = "PIC">
-    </div>
-    <div class = "Info">
-        <article class = "informations">The Internet started in the 1960s as a way for government researchers to share information.
-            	Computers in the '60s were large and immobile and in order to make use of information stored in any one computer,
+    <div class = "">
+
+        <div class = "Info">
+            <span class = "informations">The Internet started in the 1960s as a way for government researchers to share information.
+                Computers in the '60s were large and immobile and in order to make use of information stored in any one computer,
                 one had to either travel to the site of the computer or have magnetic computer tapes sent through the conventional postal system.
-        </article>
+            </span>
+
+            <span class="article_image"><img height="100px" src="internet.jpg" alt="internet"></span>
+        </div>
     </div>
-    <!--<div class = "Info">
-        <article class = "informations">Informations</article>
-    </div>
-    <div class = "Info">
-        <article class = "informations">Informations</article>
-    </div>
-    <div>
-    <!--footer-->
+        <!--<div class = "Info">
+            <article class = "informations">Informations</article>
+        </div>
+        <div class = "Info">
+            <article class = "informations">Informations</article>
+        </div>
+        <div-->
+
         <footer id = "footer" class = "clearFix">
             Tanvi Deepak Kapote&#169;
         </footer>
-    </div>
+
 </div>
-</body>dd
+</body>
 </html>
