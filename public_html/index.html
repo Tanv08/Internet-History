@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Z Layout</title>
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+
+    <style>
+        #wrapper {
+            width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #logo{
+            width: 320px;
+            height: 80px;
+            float: left;
+            background-color: #e2dbe8;
+            margin: 0px;
+            text-align: right;
+        }
+        #logopic{
+            float: left;
+        }
+        #footer{
+            text-align: center;
+        }
+        .clearFix{
+            clear: both;
+        }
+        #Links{
+            width: 600px;
+            height: 80px;
+            float: right;
+            background-color: #e2dbe8;
+            margin: 0px;
+            text-align: right;
+        }
+        #Links li{
+            display: inline;
+        }
+        .Main_picture{
+            width: 960px;
+            height: 400px;
+            float: left;
+            background-color: aliceblue;
+            position: relative;
+        }
+        .PIC{
+            max-height: 100%;
+            max-width: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        .Info{
+            width: 300px;
+            height: 240px;
+            border: 10px solid white;
+            float: left;
+            background-color: #e5bce5;
+        }
+        .informations{
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    </style>
+
+</head>
+<body>
+<div id = "wrapper">
+    <div id = "logo">
+        <img src = "images/logo.png" alt = "logo" id = "logopic">
+    </div>
+    <menu id = "Links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">about</a></li>
+    </menu>
+    <div class = "Main_picture">
+        <img src = "images/internet.jpg" alt = "Internet" class = "PIC">
+    </div>
+    <div class = "Info">
+        <article class = "informations">Informations</article>
+    </div>
+    <div class = "Info">
+        <article class = "informations">Informations</article>
+    </div>
+    <div class = "Info">
+        <article class = "informations">Informations</article>
+    </div>
+    <div> <!--footer-->
+        <footer id = "footer" class = "clearFix">
+            Tanvi Deepak Kapote&#169;
+        </footer>
+    </div>
+</div>
+</body>dd
+</html>
